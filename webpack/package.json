@@ -1,0 +1,43 @@
+{
+  "name": "webpack_tutorial",
+  "version": "1.0.0",
+  "description": "A tutorial on webpack. Resource used: https://www.smashingmagazine.com/2017/02/a-detailed-introduction-to-webpack/",
+  "main": "index.js",
+  "scripts": {
+    "clean": "del-cli dist -f",
+    "build": "webpack",
+    "server": "http-server ./dist",
+    "start": "yarn build -s && yarn server -s"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zzmarkzz321/Javascript_Learning.git"
+  },
+  "keywords": [
+    "webpack",
+    "javascript"
+  ],
+  "author": "Mark Renzo Santiago",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zzmarkzz321/Javascript_Learning/issues"
+  },
+  "homepage": "https://github.com/zzmarkzz321/Javascript_Learning#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "del-cli": "^1.1.0",
+    "handlebars": "^4.0.11",
+    "handlebars-loader": "^1.6.0",
+    "html-webpack-plugin": "^2.30.1",
+    "http-server": "^0.10.0",
+    "path": "^0.12.7",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
