@@ -9342,7 +9342,8 @@ var numbers = (0, _lodash.map)([1, 2, 3, 4, 5, 6], function (n) {
   return n * n;
 });
 
-console.log((0, _numberlist2.default)({ numbers: numbers }));
+// console.log(template({numbers}));
+
 document.getElementById("app-container").innerHTML = (0, _numberlist2.default)({ numbers: numbers });
 
 /***/ }),

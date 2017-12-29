@@ -1,0 +1,15 @@
+{
+  "name": "Jester",
+  "version": "1.0.0",
+  "description": "Introduction to Jester JS",
+  "main": "index.js",
+  "repository": "https://github.com/zzmarkzz321/Javascript_Learning",
+  "author": "Mark Renzo Santiago",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^22.0.4"
+  }
+}
