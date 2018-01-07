@@ -28,6 +28,7 @@ let midChampions = lolChampionLane.filter(champ => champ.lane === 'mid');
 	Goal : create an array of all the champion names available
 */
 
+// Callback has current index and array being changed as optional parameters
 let championNames = lolChampionLane.map(champ => champ.name);
 
 /*
